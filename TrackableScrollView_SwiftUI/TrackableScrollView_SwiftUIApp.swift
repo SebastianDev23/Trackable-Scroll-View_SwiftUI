@@ -1,8 +1,5 @@
-//
-//  TrackableScrollView_SwiftUIApp.swift
-//  TrackableScrollView_SwiftUI
-//
-//  Created by Sebastian Klösel on 27.12.21.
+
+//  Created by Sebastian Kl
 //
 
 import SwiftUI
@@ -15,3 +12,4 @@ struct TrackableScrollView_SwiftUIApp: App {
         }
     }
 }
+ 

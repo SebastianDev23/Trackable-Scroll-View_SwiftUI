@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		C9590E2C277A181900EE40CF /* TrackableScrollView_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9590E2B277A181900EE40CF /* TrackableScrollView_SwiftUIApp.swift */; };
-		C9590E2E277A181900EE40CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9590E2D277A181900EE40CF /* ContentView.swift */; };
+		C9590E2E277A181900EE40CF /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9590E2D277A181900EE40CF /* TrackableScrollView.swift */; };
 		C9590E30277A181A00EE40CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9590E2F277A181A00EE40CF /* Assets.xcassets */; };
 		C9590E33277A181A00EE40CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9590E32277A181A00EE40CF /* Preview Assets.xcassets */; };
+		C9590E3A277A1CE500EE40CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9590E39277A1CE500EE40CF /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C9590E28277A181900EE40CF /* TrackableScrollView_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackableScrollView_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9590E2B277A181900EE40CF /* TrackableScrollView_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView_SwiftUIApp.swift; sourceTree = "<group>"; };
-		C9590E2D277A181900EE40CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C9590E2D277A181900EE40CF /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
 		C9590E2F277A181A00EE40CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9590E32277A181A00EE40CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9590E39277A1CE500EE40CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				C9590E2B277A181900EE40CF /* TrackableScrollView_SwiftUIApp.swift */,
-				C9590E2D277A181900EE40CF /* ContentView.swift */,
+				C9590E39277A1CE500EE40CF /* ContentView.swift */,
+				C9590E2D277A181900EE40CF /* TrackableScrollView.swift */,
 				C9590E2F277A181A00EE40CF /* Assets.xcassets */,
 				C9590E31277A181A00EE40CF /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9590E2E277A181900EE40CF /* ContentView.swift in Sources */,
+				C9590E2E277A181900EE40CF /* TrackableScrollView.swift in Sources */,
 				C9590E2C277A181900EE40CF /* TrackableScrollView_SwiftUIApp.swift in Sources */,
+				C9590E3A277A1CE500EE40CF /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +200,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -251,7 +255,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,7 +290,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +319,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
